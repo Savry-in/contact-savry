@@ -1,14 +1,23 @@
-import Links from "./Links"
+import Links from './Links';
 
-const Url = () => {
-  return (
-    <div className="flex flex-col items-center justify-center gap-4 mt-12 ">
-        <Links linkTitle="Savry.in" />
-        <Links linkTitle="Mail"/>
-        <Links linkTitle="X"/>
-        <Links linkTitle="Linkedin"/>
-    </div>
-  )
+interface UrlProps {
+  links: {
+    website: string;
+    mail: string;
+    x: string;
+    linkedin: string;
+  };
 }
 
-export default Url
+const Url: React.FC<UrlProps> = ({ links }) => {
+  return (
+    <div className="flex flex-col items-center justify-center gap-4 mt-12">
+      <Links label="Savry" url={links.website} />
+      <Links label="Mail" url={links.mail} />
+      <Links label="Twitter" url={links.x} />
+      <Links label="LinkedIn" url={links.linkedin} />
+    </div>
+  );
+};
+
+export default Url;
