@@ -1,4 +1,3 @@
-import React from 'react'
 import Url from './Url';
 import { people } from '../Data/info';
 const profile = people['savry'];
@@ -14,12 +13,9 @@ const DefaultPage = () => {
     <h1 className="text-3xl font-bold mb-2 spm-bold">{profile.name}</h1>
     <p className="text-xl mb-4 ">{profile.title}</p>
     <Url links={profile.links} />
-    <div className="founders bg-[#cbf7d2] h-56 w-64 shadow-md rounded-lg hover:shadow-xl duration-300 hover:scale-105 relative left-[48rem] flex flex-col items-center justify-center">
-        <h1 className='text-2xl spm-bold mb-10'>Founders</h1>
-        <a href="/utkrsh">Utkarsh Dwivedi</a>
-        <a href="/abhinav">Abhinav Shukla</a>
-        <a href="/tarun">Tarun Rathi</a>
-    </div>
+    <footer className='text-sm spm-thin relative top-52'>
+    Copyright © 2025 <span className='spm-bold text-[#547f13] text-[1.1rem]'>SAVRY</span>. All Rights Reserved
+    </footer>
   </div>
   )
 }

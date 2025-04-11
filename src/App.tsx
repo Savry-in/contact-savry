@@ -8,8 +8,8 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/:foundername" element={<FounderPage />} />
       <Route path="/" element={<DefaultPage />} />
+      <Route path="/:foundername" element={<FounderPage />} />
       </Routes>
   )
 }
