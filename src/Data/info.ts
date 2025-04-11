@@ -15,31 +15,42 @@ export const people: Record<string, {
     image: "/pfps/utkrsh.png",
     links: {
       website: "https://savry.in",
-      mail: "mailto:utkarsh@savry.in",
+      mail: "mailto:utkrsh@savry.in",
       x: "https://x.com/utkrsh004",
       linkedin: "https://linkedin.com/in/utkarsh"
     }
   },
   abhinav: {
     name: "Abhinav Shukla",
-    title: "Wanderlust",
+    title: "CEO",
     image: "/pfps/abhinav.png",
     links: {
       website: "https://savry.in",
       mail: "mailto:abhinashukla@savry.in",
-      x: "https://x.com/abhinavshukla",
+      x: "https://x.com/shuknav",
       linkedin: "https://linkedin.com/in/abhinavshukla"
     }
   },
   tarun: {
     name: "Tarun Rathi",
-    title: "Diligent",
+    title: "COO",
     image: "/pfps/tarun.png",
     links: {
       website: "https://savry.in",
-      mail: "mailto:tarunrathi@savry.in",
-      x: "https://x.com/tarunrathi",
-      linkedin: "https://linkedin.com/in/tarunrathi"
+      mail: "mailto:tarun.r@savry.in",
+      x: "https://x.com/maddylaster04",
+      linkedin: "https://linkedin.com/in/trat"
+    }
+  },
+  savry: {
+    name: "Savry",
+    title: "Smarter Kitchen, Smarter You",
+    image: "/pfps/savry.png",
+    links: {
+      website: "https://savry.in",
+      mail: "mailto:hello@savry.in",
+      x: "https://x.com/",
+      linkedin: "https://linkedin.com/in/"
     }
   },
 };

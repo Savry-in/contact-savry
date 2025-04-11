@@ -12,7 +12,8 @@ const FounderPage: React.FC = () => {
 
   useEffect(() => {
     if (foundername) {
-      document.title = `${foundername} - Savry`;
+      const foundernameU = foundername.charAt(0).toUpperCase() + foundername.slice(1);
+      document.title = `${foundernameU} - Savry`;
     } else {
       document.title = 'Savry Founders';
     }
@@ -24,14 +25,14 @@ const FounderPage: React.FC = () => {
     </div>;
   }
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-[#E0FAEE]">
+    <div className="min-h-screen flex flex-col items-center bg-[#E0FAEE]">
       <img
         src={profile.image}
         alt={profile.name}
-        className="mb-4 w-40 h-40 object-cover rounded-full"
+        className="mb-4 w-40 h-40 object-cover rounded-full mt-32"
       />
-      <h1 className="text-3xl font-bold mb-2">{profile.name}</h1>
-      <p className="text-xl mb-4">{profile.title}</p>
+      <h1 className="text-3xl font-bold mb-2 spm-bold">{profile.name}</h1>
+      <p className="text-xl mb-4 ">{profile.title}</p>
       <Url links={profile.links} />
     </div>
   );
