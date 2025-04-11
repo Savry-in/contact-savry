@@ -27,6 +27,9 @@ jobs:
       - name: Build project
         run: npm run build
 
+      - name: Copy .htaccess to dist
+        run: cp ./.htaccess ./dist/.htaccess
+
       - name: Deploy via FTP
         if: github.repository == 'Savry-in/contact-savry' && github.ref == 'refs/heads/main'
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
