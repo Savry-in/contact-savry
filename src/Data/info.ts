@@ -22,7 +22,7 @@ export const people: Record<string, {
   },
   abhinav: {
     name: "Abhinav Shukla",
-    title: "Wanderlust",
+    title: "CEO",
     image: "/pfps/abhinav.png",
     links: {
       website: "https://savry.in",
