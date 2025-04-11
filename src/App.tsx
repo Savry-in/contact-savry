@@ -1,16 +1,16 @@
 // import { useState } from 'react'
-
+import { Route, Routes } from 'react-router-dom'
+import FounderPage from './components/FounderPage'
+import DefaultPage from './components/DefaultPage'
 
 
 function App() {
-  // const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div id='main' className="bg-[#E0FAEE] min-h-screen">
-        
-      </div>
-    </>
+    <Routes>
+      <Route path="/" element={<DefaultPage />} />
+      <Route path="/:foundername" element={<FounderPage />} />
+      </Routes>
   )
 }
 
