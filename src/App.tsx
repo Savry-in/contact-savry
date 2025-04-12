@@ -7,10 +7,12 @@ import DefaultPage from './components/DefaultPage'
 function App() {
 
   return (
+    <div className="min-h-screen flex flex-col items-center bg-[#E0FAEE]"> 
     <Routes>
       <Route path="/" element={<DefaultPage />} />
       <Route path="/:foundername" element={<FounderPage />} />
-      </Routes>
+    </Routes>
+  </div>
   )
 }
 

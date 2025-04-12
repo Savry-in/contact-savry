@@ -50,7 +50,7 @@ export const people: Record<string, {
       website: "https://savry.in",
       mail: "mailto:hello@savry.in",
       x: "https://x.com/",
-      linkedin: "https://linkedin.com/in/"
+      linkedin: "https://linkedin.com/company/savryy"
     }
   },
 };
