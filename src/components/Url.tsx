@@ -11,7 +11,7 @@ interface UrlProps {
 
 const Url: React.FC<UrlProps> = ({ links }) => {
   return (
-    <div className="flex flex-col items-center justify-center gap-4 mt-12 relative top-16 md:top-32">
+    <div className="flex flex-col items-center justify-center gap-4 mt-12 relative pt-16 md:pt-0">
       <Links label="Savry" url={links.website} />
       <Links label="Mail" url={links.mail} />
       <Links label="Twitter" url={links.x} />
