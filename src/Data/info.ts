@@ -16,8 +16,8 @@ export const people: Record<string, {
     links: {
       website: "https://savry.in",
       mail: "mailto:utkrsh@savry.in",
-      x: "https://x.com/utkrsh004",
-      linkedin: "https://linkedin.com/in/utkarsh"
+      x: "https://x.com/utkrsh004/",
+      linkedin: "https://www.linkedin.com/in/utkrshd/"
     }
   },
   abhinav: {
@@ -27,8 +27,8 @@ export const people: Record<string, {
     links: {
       website: "https://savry.in",
       mail: "mailto:abhinashukla@savry.in",
-      x: "https://x.com/shuknav",
-      linkedin: "https://linkedin.com/in/abhinavshukla"
+      x: "https://x.com/Shuknav/",
+      linkedin: "https://in.linkedin.com/in/shuknav/"
     }
   },
   tarun: {
@@ -38,8 +38,8 @@ export const people: Record<string, {
     links: {
       website: "https://savry.in",
       mail: "mailto:tarun.r@savry.in",
-      x: "https://x.com/maddylaster04",
-      linkedin: "https://linkedin.com/in/trat"
+      x: "https://x.com/TarunR01/",
+      linkedin: "https://linkedin.com/in/trat/"
     }
   },
   savry: {
@@ -49,8 +49,8 @@ export const people: Record<string, {
     links: {
       website: "https://savry.in",
       mail: "mailto:hello@savry.in",
-      x: "https://x.com/",
-      linkedin: "https://linkedin.com/company/savryy"
+      x: "https://x.com/TheRealSavry/",
+      linkedin: "https://www.linkedin.com/company/savryy"
     }
   },
 };
