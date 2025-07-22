@@ -16,8 +16,8 @@ export const people: Record<string, {
     links: {
       website: "https://savry.in",
       mail: "mailto:utkrsh@savry.in",
-      x: "https://x.com/utkrsh004/",
-      linkedin: "https://www.linkedin.com/in/utkrshd/"
+      x: "https://x.com/isshincode/",
+      linkedin: "https://www.linkedin.com/in/krsh-dev/"
     }
   },
   abhinav: {
