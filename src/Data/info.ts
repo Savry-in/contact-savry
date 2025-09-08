@@ -31,17 +31,17 @@ export const people: Record<string, {
       linkedin: "https://in.linkedin.com/in/shuknav/"
     }
   },
-  tarun: {
-    name: "Tarun Rathi",
-    title: "COO",
-    image: "/pfps/tarun.png",
+  utkarsharma: {
+    name: "Utkarsh Sharma",
+    title: "CTO",
+    image: "/pfps/sharmau.jpg",
     links: {
-      website: "https://savry.in",
-      mail: "mailto:tarun.r@savry.in",
-      x: "https://x.com/TarunR01/",
-      linkedin: "https://linkedin.com/in/trat/"
+      website: "https://savry.in/",
+      mail: "mailto:sharmau@savry.in",
+      x: "https://x.com/utkrsharmaa/",
+      linkedin: "https://www.linkedin.com/in/utkrsharmaa/"
     }
-  },
+  }, 
   savry: {
     name: "Savry",
     title: "Smarter Kitchen, Smarter You",
