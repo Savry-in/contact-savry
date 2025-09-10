@@ -1,3 +1,3 @@
-# Contact Savry
+# BookBite
 
-A simple contact page that displays the contact information for the founders of Savry.
+cleaning up for rebranding
